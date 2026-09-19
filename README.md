@@ -1,6 +1,6 @@
 # terminal_codepen_theme
 
-An Oh My Zsh theme with a compact prompt structure, using the palette from
+An Oh My Zsh theme and a macOS Terminal profile using the palette from
 [VS Code CodePen Theme](https://github.com/ziqq/vscode_codepen_theme).
 
 The default variant is the approved **D2** direction:
@@ -23,6 +23,22 @@ B · Cool:
 ![B: Cool prompt variation](previews/terminal-codepen-cool.jpg)
 
 ## Install
+
+### macOS Terminal profile
+
+Import [`terminal/CodePen.terminal`](terminal/CodePen.terminal) by opening it in
+Terminal.app:
+
+```sh
+open terminal/CodePen.terminal
+```
+
+Select **CodePen** in **Terminal → Settings → Profiles**. Use **Default** there
+if new Terminal windows should always use the profile.
+
+The profile defines the CodePen background, foreground, cursor, selection, and
+all 16 ANSI colors. It is independent from the Oh My Zsh prompt theme below, so
+the two can be used together or separately.
 
 ### Linux, macOS, WSL, or an existing MSYS2 shell
 
@@ -90,4 +106,5 @@ Before the first edit, the installer preserves an existing `.zshrc` as
 
 - Prompt conventions: [Oh My Zsh customization guide](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization)
 - Palette: [VS Code CodePen Theme](https://github.com/ziqq/vscode_codepen_theme)
+- Terminal profile format: the profiles bundled with macOS Terminal.app
 - Custom theme loading: [Oh My Zsh customization guide](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization)
