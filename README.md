@@ -36,9 +36,11 @@ open terminal/CodePen.terminal
 Select **CodePen** in **Terminal → Settings → Profiles**. Use **Default** there
 if new Terminal windows should always use the profile.
 
-The profile defines the CodePen background, foreground, cursor, selection, and
-all 16 ANSI colors. It is independent from the Oh My Zsh prompt theme below, so
-the two can be used together or separately.
+The profile defines the CodePen foreground, cursor, selection, and all 16 ANSI
+colors. Its content background is `#1b1b1b`, matching Terminal.app's dark
+window header so the content area does not appear as a separate strip. It is
+independent from the Oh My Zsh prompt theme below, so the two can be used
+together or separately.
 
 ### Linux, macOS, WSL, or an existing MSYS2 shell
 
