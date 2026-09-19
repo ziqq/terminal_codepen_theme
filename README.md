@@ -86,6 +86,18 @@ The helper renders `??` in CodePen blue, the associated file path in CodePen gre
 Native commands such as `git status` and `git status --short` remain unchanged. Install without the helper using
 `--no-git-helper` on Unix-like systems or `-NoGitHelper` in PowerShell.
 
+## Command syntax colors
+
+The Terminal.app profile controls the window and ANSI output. It cannot color
+text while a command is being typed, so the installer also installs
+[`zsh-syntax-highlighting`](https://github.com/zsh-users/zsh-syntax-highlighting)
+and loads CodePen styles after Oh My Zsh. Commands are yellow, functions and
+globbing are purple, paths and quoted arguments are green, aliases and
+precommands are blue, comments are gray, and invalid tokens are red.
+
+The syntax-highlighting integration is optional at runtime: if its plugin file
+is unavailable, the prompt and Terminal.app profile still work normally.
+
 ## Fallback and files
 
 The managed `.zshrc` block selects the requested CodePen theme only when its file is readable. Otherwise it selects
@@ -97,6 +109,8 @@ Installed files:
 ${ZSH_CUSTOM:-$ZSH/custom}/themes/codepen.zsh-theme
 ${ZSH_CUSTOM:-$ZSH/custom}/themes/codepen_cool.zsh-theme
 ${ZSH_CUSTOM:-$ZSH/custom}/terminal-codepen-git-status.zsh
+${ZSH_CUSTOM:-$ZSH/custom}/terminal-codepen-syntax.zsh
+${ZSH_CUSTOM:-$ZSH/custom}/plugins/zsh-syntax-highlighting/
 ```
 
 Before the first edit, the installer preserves an existing `.zshrc` as
