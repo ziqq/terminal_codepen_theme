@@ -44,31 +44,31 @@ together or separately.
 
 ### Warp
 
-Import [`terminal/codepen.warp.yaml`](terminal/codepen.warp.yaml) through
+Import [`terminal/CodePen.warp.yaml`](terminal/CodePen.warp.yaml) through
 **Settings → Appearance → Terminal Themes → Import from Warp**, or copy it
 manually:
 
 ```sh
 mkdir -p ~/.warp/themes
-cp terminal/codepen.warp.yaml ~/.warp/themes/codepen.yaml
+cp terminal/CodePen.warp.yaml ~/.warp/themes/CodePen.yaml
 ```
 
-Restart Warp and select **codepen** in **Settings → Appearance → Themes**.
+Restart Warp and select **CodePen** in **Settings → Appearance → Themes**.
 
 ### YAML (Alacritty, Cursor, and others)
 
-Use [`terminal/codepen.yaml`](terminal/codepen.yaml) for any terminal that
+Use [`terminal/CodePen.yaml`](terminal/CodePen.yaml) for any terminal that
 supports YAML theme import (Alacritty, Cursor, Tabby, etc.).
 
 For **Alacritty**, import it in `~/.config/alacritty/alacritty.toml`:
 
 ```toml
 [general]
-import = ["~/.config/alacritty/codepen.yaml"]
+import = ["~/.config/alacritty/CodePen.yaml"]
 ```
 
 For terminals with an **Import from YAML** button, point the file picker at
-`terminal/codepen.yaml`.
+`terminal/CodePen.yaml`.
 
 ### Linux, macOS, WSL, or an existing MSYS2 shell
 
@@ -145,6 +145,11 @@ ${ZSH_CUSTOM:-$ZSH/custom}/plugins/zsh-syntax-highlighting/
 
 Before the first edit, the installer preserves an existing `.zshrc` as
 `.zshrc.pre-terminal-codepen-theme`. Re-running the installer updates one managed block rather than adding duplicates.
+
+## See also
+
+- [VS Code CodePen Theme](https://github.com/ziqq/vscode_codepen_theme) — the original palette this theme is built on
+- [Xcode CodePen Themes](https://github.com/ziqq/xcode-themes) — the same palette for Xcode
 
 ## Sources
 
