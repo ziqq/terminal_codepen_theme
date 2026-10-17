@@ -44,16 +44,16 @@ together or separately.
 
 ### Warp
 
-Import [`terminal/CodePen.warp.yaml`](terminal/CodePen.warp.yaml) through
-**Settings → Appearance → Terminal Themes → Import from Warp**, or copy it
-manually:
+Import [`terminal/CodePen Original.yaml`](<terminal/CodePen Original.yaml>)
+through **Settings → Appearance → Terminal Themes → Import from Warp**, or
+copy it manually:
 
 ```sh
 mkdir -p ~/.warp/themes
-cp terminal/CodePen.warp.yaml ~/.warp/themes/CodePen.yaml
+cp "terminal/CodePen Original.yaml" ~/.warp/themes/"CodePen Original.yaml"
 ```
 
-Restart Warp and select **CodePen** in **Settings → Appearance → Themes**.
+Restart Warp and select **CodePen Original** in **Settings → Appearance → Themes**.
 
 ### YAML (Alacritty, Cursor, and others)
 
