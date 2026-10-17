@@ -42,6 +42,34 @@ window header so the content area does not appear as a separate strip. It is
 independent from the Oh My Zsh prompt theme below, so the two can be used
 together or separately.
 
+### Warp
+
+Import [`terminal/codepen.warp.yaml`](terminal/codepen.warp.yaml) through
+**Settings → Appearance → Terminal Themes → Import from Warp**, or copy it
+manually:
+
+```sh
+mkdir -p ~/.warp/themes
+cp terminal/codepen.warp.yaml ~/.warp/themes/codepen.yaml
+```
+
+Restart Warp and select **codepen** in **Settings → Appearance → Themes**.
+
+### YAML (Alacritty, Cursor, and others)
+
+Use [`terminal/codepen.yaml`](terminal/codepen.yaml) for any terminal that
+supports YAML theme import (Alacritty, Cursor, Tabby, etc.).
+
+For **Alacritty**, import it in `~/.config/alacritty/alacritty.toml`:
+
+```toml
+[general]
+import = ["~/.config/alacritty/codepen.yaml"]
+```
+
+For terminals with an **Import from YAML** button, point the file picker at
+`terminal/codepen.yaml`.
+
 ### Linux, macOS, WSL, or an existing MSYS2 shell
 
 ```sh

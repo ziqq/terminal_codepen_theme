@@ -1,0 +1,34 @@
+# CodePen terminal color scheme (generic YAML)
+# Palette: https://github.com/ziqq/vscode_codepen_theme
+#
+# Compatible with Alacritty, Cursor, and other terminals
+# that support YAML theme import.
+
+colors:
+  primary:
+    background: '#1d1e22'
+    foreground: '#ffffff'
+  cursor:
+    text: '#1d1e22'
+    cursor: '#ffffff'
+  selection:
+    text: '#ffffff'
+    background: '#464756'
+  normal:
+    black: '#1d2021'
+    red: '#f07178'
+    green: '#96b38a'
+    yellow: '#ddca7e'
+    blue: '#40404e'
+    magenta: '#9a8297'
+    cyan: '#809bbd'
+    white: '#cccccc'
+  bright:
+    black: '#717790'
+    red: '#f07178'
+    green: '#96b38a'
+    yellow: '#ddca7e'
+    blue: '#809bbd'
+    magenta: '#9a8297'
+    cyan: '#cccccc'
+    white: '#ffffff'

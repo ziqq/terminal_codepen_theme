@@ -1,0 +1,26 @@
+# CodePen theme for Warp
+# Palette: https://github.com/ziqq/vscode_codepen_theme
+
+accent: '#FF5370'
+background: '#1d1e22'
+foreground: '#ffffff'
+details: darker
+terminal_colors:
+  normal:
+    black: '#1d2021'
+    red: '#f07178'
+    green: '#96b38a'
+    yellow: '#ddca7e'
+    blue: '#40404e'
+    magenta: '#9a8297'
+    cyan: '#809bbd'
+    white: '#cccccc'
+  bright:
+    black: '#717790'
+    red: '#f07178'
+    green: '#96b38a'
+    yellow: '#ddca7e'
+    blue: '#809bbd'
+    magenta: '#9a8297'
+    cyan: '#cccccc'
+    white: '#ffffff'
